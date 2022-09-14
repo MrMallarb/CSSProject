@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Coding workshops for women | SheCodes</title>
+
+        <style>
+            h1 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+            }
+            h3 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+            }
+            .blue {
+                color: #1964D6;
+            }
+            .faded {
+                color: #4D4C48;
+            }
+            
+            .container {
+                display: flex;
+                height: 100px;
+                position: relative;
+                justify-content: center;
+                align-items: center;
+            }
+            #button {
+                background-color: #1964D6;
+                color: white;
+                text-align: center;
+                cursor: pointer;
+                padding: 16px 24px;
+                border-radius: 30px;
+                border: 1px solid #1964D6;
+                transition: 200ms;
+            }
+            #button:hover {
+                background-color: white;
+                color: #1964D6;
+                transition: 200ms;
+            }
+            #author {
+                font-family:'Courier New', Courier, monospace;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 class="blue">🌤</h1>
+        <h1 class="blue">Currently 21° in Tokyo</h1>
+        <h1>13° / 23°</h1>
+
+        <br>
+        <h3>🌧 Tomorrow</h3>
+        <h3 class="faded">10° / 22°</h3>
+
+        <br>
+        <h3>🌥 Saturday</h3>
+        <h3 class="faded">13° / 17°</h3>
+
+        <br>
+        <h3>☀️ Sunday</h3>
+        <h3 class="faded">25° / 28°</h3>
+        
+        <div class="container">
+            <button type="button", id="button">Change city</button>
+        </div>
+
+        <h3 class="faded", id="author">Coded by Matt Delec (actually by john but its fine lol)</h3>
+    </body>
+</html>
